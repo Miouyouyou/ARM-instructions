@@ -348,7 +348,7 @@
     "SSUB16%{c}%{q}": ["Signed Subtract 16 %{q} %{c}", {}, []],
     "SSUB8%{c}%{q}": ["Signed Subtract 8 %{q} %{c}", {}, []],
     "STC%{coproc_l}%{coproc_2}%{c}%{q}": ["Store Coprocessor %{q} %{c}", {}, ["unconditionnal"]],
-    "STM%{amode}%{c}%{q}": ["Store Multiple %{q} %{c}", {"amode": {"": "ia", "da": "ed", "db": "fd", "ia": "ea", "ib": "fa"}}, []],
+    "STM%{amode}%{c}%{q}": ["Store Multiple %{amode} %{q} %{c}", {"amode": {"": "ia", "da": "ed", "db": "fd", "ia": "ea", "ib": "fa"}}, []],
     "STR%{exclusive}%{wsize}%{c}%{q}": ["Store Register %{exclusive} %{wsize} %{q} %{c}", {"wsize": ["", "b", "h", "d"]}, []],
     "STRBT%{c}%{q}": ["Store Register Byte Unprivileged %{q} %{c}", {}, []],
     "STRHT%{c}%{q}": ["Store Register Halfword Unprivileged %{q} %{c}", {}, []],
