@@ -1,0 +1,22 @@
+op op2 imm5 Instruction See
+0000x	-	-	Bitwise AND	AND (register) on page A8-326
+0001x	-	-	Bitwise Exclusive OR	EOR (register) on page A8-384
+0010x	-	-	Subtract	SUB (register) on page A8-712
+0011x	-	-	Reverse Subtract	RSB (register) on page A8-576
+0100x	-	- Add	ADD (register, ARM) on page A8-312
+0101x	-	-	Add with Carry	ADC (register) on page A8-302
+0110x	-	-	Subtract with Carry	SBC (register) on page A8-594
+0111x	-	-	Reverse Subtract with Carry	RSC (register) on page A8-582
+10001	-	-	Test	TST (register) on page A8-746
+10011	-	-	Test Equivalence	TEQ (register) on page A8-740
+10101	-	-	Compare	CMP (register) on page A8-372
+10111	-	-	Compare Negative	CMN (register) on page A8-366
+1100x	-	-	Bitwise OR	ORR (register) on page A8-518
+1101x	00	00000	Move	MOV (register, ARM) on page A8-488
+1101x	00	!00000	Logical	Shift Left	LSL (immediate) on page A8-468
+1101x	01	-	Logical Shift Right	LSR (immediate) on page A8-472
+1101x	10	-	Arithmetic Shift Right	ASR (immediate) on page A8-330
+1101x	11	00000	Rotate Right with Extend	RRX on page A8-572
+1101x	11	!00000	Rotate Right	ROR (immediate) on page A8-568
+1110x	-	-	Bitwise Bit Clear	BIC (register) on page A8-342
+1111x	-	-	Bitwise NOT	MVN (register) on page A8-506
