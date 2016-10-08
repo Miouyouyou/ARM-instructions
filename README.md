@@ -10,6 +10,7 @@ Currently, the only available format is JSON. XML will be next.
 The current main point is to be able to generate configuration files for syntax highlighters tools like Rouge, in order to highlight ARM assembly scripts presented on webpages.
 
 
-<a href='https://pledgie.com/campaigns/32702'><img alt='Click here to lend your support to: Myy&#x27;s ARM projects and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/32702.png?skin_name=chrome' border='0' 
-></a>
+[![Money !](https://pledgie.com/campaigns/32702.png?skin_name=chrome)](https://pledgie.com/campaigns/32702)
+
 BTC : 16zwQUkG29D49G6C7pzch18HjfJqMXFNrW
+

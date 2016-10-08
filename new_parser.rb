@@ -73,20 +73,20 @@ class VariantsGenerator
       variant_infos = all_infos[:variants]
       flags_infos = all_infos[:flags]
       extract_variants_to_add_from_pattern(base_mnemonic_pattern).each do |variant|
-        variants_obtained[variant] = variant_infos[variant]
+        variants_obtained[variant.to_sym] = variant_infos[variant]
       end
       flag_infos = all_infos[:flags]
       flags.each do |flag|
-        if replacements = flag_infos[flag]
+        if replacements = flag_infos[flag.to_sym]
           # p replacements
           replacements.each do |variant, infos|
-            variants_obtained[variant] = infos
+            variants_obtained[variant.to_sym] = infos
           end
         end
       end
       special_variants.each do |variant, infos|
-        h = @@special_variants[variant][variant, infos, all_infos]
-        variants_obtained[variant] = h
+        h = @@special_variants[variant.to_sym][variant.to_sym, infos, all_infos]
+        variants_obtained[variant.to_sym] = h
       end
       # pp variants_obtained
       variants_obtained

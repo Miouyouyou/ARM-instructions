@@ -113,7 +113,7 @@
     },
     "exclusive": {
       "": "",
-      "exclusive": "Exclusive"
+      "ex": "Exclusive"
     },
     "half_parts": {
       "": "",
@@ -216,17 +216,17 @@
     "uncondtionnal": {
       "c": {
         "": "",
-        "AL": "(Always)"
+        "al": "(Always)"
       }
     },
     "simd_conditions": {
       "c": {
         "": "",
-        "AL": "(Always)"
+        "al": "(Always)"
       },
       "q": {
         "": "",
-        ".W": ""
+        ".w": ""
       }
     },
     "arm_only": {
